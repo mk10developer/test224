@@ -14,7 +14,9 @@ public class AppCalculatrice {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        Calculatrice cal = new Calculatrice();
+        cal.setVisible(true);
     }
     
 }
